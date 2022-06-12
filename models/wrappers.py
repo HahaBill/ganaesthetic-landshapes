@@ -109,7 +109,7 @@ class StyleGAN2(BaseModel):
         # Image widths
         configs = {
             # Converted NVIDIA official
-            'landshapes-v2': 1024,
+            'landshapes-final': 1024,
             'ffhq': 1024,
             'car': 512,
             'cat': 256,
@@ -143,7 +143,7 @@ class StyleGAN2(BaseModel):
     # URLs created with https://sites.google.com/site/gdocs2direct/
     def download_checkpoint(self, outfile):
         checkpoints = {
-            'landshapes-v2': 'https://drive.google.com/uc?export=download&id=1c5XOjMqaCs4nQ4pAsC653WdAijPSUd_5',
+            'landshapes-final': 'https://drive.google.com/uc?export=download&id=1NUUP7FOP8b0E8uchkEE-We943vy7VmFT',
             'horse': 'https://drive.google.com/uc?export=download&id=18SkqWAkgt0fIwDEf2pqeaenNi4OoCo-0',
             'ffhq': 'https://drive.google.com/uc?export=download&id=1FJRwzAkV-XWbxgTwxEmEACvuqF5DsBiV',
             'church': 'https://drive.google.com/uc?export=download&id=1HFM694112b_im01JT7wop0faftw9ty5g',
