@@ -3,6 +3,7 @@
 # GANAesthetic : Landshapes-editor
 
 The base code use from GANSPACE + Gradio Framework
+Research paper : https://repository.tudelft.nl/islandora/object/uuid:ce179e1d-4de4-4c3e-b754-2a580116ddc6
 
 ![image info](./images/samples.png)
 
